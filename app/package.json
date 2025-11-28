@@ -63,17 +63,22 @@
   },
   "predev": {
     "app": {
-      "name": "Acme Portal (Predev)",
+      "name": "Glow run",
       "theme": {
         "colors": {
-          "primary": "#3B82F6",
-          "secondary": "#1F2937"
+          "primary": "#3322",
+          "secondary": "#3322"
         },
-        "darkMode": true
+        "darkMode": false,
+        "cat": "meow"
       },
       "features": {
         "betaBanner": true,
         "newCheckout": false
+      },
+      "volumes": {
+        "isrunning": true,
+        "sunny": false
       },
       "api": {
         "baseUrl": "https://predev.api.acme.com",
