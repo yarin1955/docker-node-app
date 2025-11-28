@@ -40,14 +40,45 @@
     "webpack-bundle-analyzer": "^3.5.2",
     "webpack-cli": "^3.1.2"
   },
-  "aaaaaaa": {
-    "css-loader": "^3.2.0",
-    "less": "^3.10.3",
-    "less-loader": "^5.0.0",
-    "raw-ccxcxc": "^0.5.1",
-    "style-loader": "^1.0.0",
-    "webpack": "^4.20.2",
-    "webpack-bundle-analyzer": "^3.5.2",
-    "sss-cc": "^3.1.2"
+  "varTrack": {
+  "default_value": {
+    "app": {
+      "name": "Acme Portal",
+      "theme": {
+        "colors": {
+          "primary": "#0A66FF",
+          "secondary": "#111827"
+        },
+        "darkMode": false
+      },
+      "features": {
+        "betaBanner": false,
+        "newCheckout": true
+      },
+      "api": {
+        "baseUrl": "https://api.acme.com",
+        "timeoutMs": 8000
+      }
+    }
+  },
+  "predev": {
+    "app": {
+      "name": "Acme Portal (Predev)",
+      "theme": {
+        "colors": {
+          "primary": "#3B82F6",
+          "secondary": "#1F2937"
+        },
+        "darkMode": true
+      },
+      "features": {
+        "betaBanner": true,
+        "newCheckout": false
+      },
+      "api": {
+        "baseUrl": "https://predev.api.acme.com",
+        "timeoutMs": 12000
+      }
+    }
   }
 }
