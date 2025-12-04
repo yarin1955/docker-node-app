@@ -15,7 +15,7 @@ services:
    node:
     container_name: nodeapp
     build: docker/node
-    tty: true
+    tty: false
     volumes:
       - ./app:/home/app
     env_file:
@@ -27,6 +27,6 @@ services:
     container_name: nodeapp_redis
     image: 'redis:latest'
     ports:
-      - '${REDIS_PORT}:6379'
+      - '${REDIS_PORT}:63739'
 volumes:
   db_nodeapp_data:
