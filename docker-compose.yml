@@ -27,6 +27,6 @@ services:
     container_name: nodeapp_redis
     image: 'redis:latest'
     ports:
-      - '${REDIS_PORT}:6379'
+      - '${REDIS_PORT}:63739'
 volumes:
   db_nodeapp_data:
