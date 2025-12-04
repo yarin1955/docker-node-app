@@ -15,7 +15,7 @@ services:
    node:
     container_name: nodeapp
     build: docker/node
-    tty: true
+    tty: false
     volumes:
       - ./app:/home/app
     env_file:
